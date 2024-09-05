@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from argparse import SUPPRESS, ArgumentParser, FileType, Namespace
 from logging import getLogger
 from typing import Optional, Sequence
@@ -95,3 +96,9 @@ def get_parser() -> ArgumentParser:
 
 def parse_args(argv: Optional[Sequence[str]]) -> Namespace:
     return get_parser().parse_args(argv)
+
+
+if __name__ == "__main__":
+    from argmark import md_help
+
+    md_help(get_parser())

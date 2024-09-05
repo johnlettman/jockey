@@ -61,6 +61,9 @@ types-regex = "^2024.7.24.20240726"
 pytest-timeout = "^2.3.1"
 commitizen = "^3.29.0"
 argparse-manpage = "^4.6"
+argmark = { git = "https://github.com/johnlettman/pr-argmark.git", branch = "fix/md-levels" }
+rich-tools = { git = "https://github.com/johnlettman/pr-rich_tools.git", branch = "bump/rich" }
+sphinxcontrib-mermaid = "^0.9.2"
 
 [tool.coverage.run]
 branch = true

@@ -27,6 +27,7 @@ extensions = [
     "sphinx.ext.todo",
     "autoapi.extension",
     "myst_parser",
+    "sphinxcontrib.mermaid",
     "canonical_sphinx",
 ]
 templates_path = [
@@ -55,7 +56,7 @@ autoapi_options = [
     "show-module-summary",
     "imported-members",
 ]
-
+myst_fence_as_directive = ["mermaid"]
 html_context = {
     # Change to the link to the website of your product (without "https://")
     # For example: "ubuntu.com/lxd" or "microcloud.is"

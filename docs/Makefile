@@ -18,5 +18,5 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	rm -rf _build               # remove _build folder cache during the local build test process
-	rm -rf _autosummary         # remove _autosummary folder cache during the local build test process
+	../src/jockey/__args__.py
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

@@ -4,21 +4,36 @@
 
 *Juju objects at your fingertips 🫰*
 
+
 [![License][shield-license]][url-license]
-![Python Version][shield-python]
-![Programming Language][shield-language]
+[![Stars][shield-stars]][url-stars]
+[![Forks][shield-forks]][url-forks]
+[![Issues][shield-issues]][url-issues]
+[![Pull Requests][shield-prs]][url-prs]
 [![Tests][shield-tests]][url-tests]
 [![Contributors][shield-contributors]][url-contributors]
+[![Python Version][shield-python]](pyproject.toml)
+[![Style][shield-style]][url-style]
 
 [shield-license]: https://img.shields.io/github/license/LCVcode/jockey?style=for-the-badge
-[shield-contributors]: https://img.shields.io/github/contributors/LCVcode/jockey?style=for-the-badge
-[shield-python]: https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FLCVcode%2Fjockey%2Fmaster%2Fpyproject.toml&style=for-the-badge
-[shield-language]: https://img.shields.io/github/languages/top/LCVcode/jockey?style=for-the-badge&logo=python
 [shield-tests]: https://img.shields.io/github/actions/workflow/status/LCVcode/jockey/ci.yml?style=for-the-badge&label=tests
+[shield-python]: https://img.shields.io/python/required-version-toml?tomlFilePath=https%3A%2F%2Fraw.githubusercontent.com%2FLCVcode%2Fjockey%2Fmaster%2Fpyproject.toml&style=for-the-badge
+[shield-style]: https://img.shields.io/badge/Style-Black-black?style=for-the-badge
+
+[shield-issues]: https://img.shields.io/github/issues/LCVcode/jockey?style=for-the-badge
+[shield-prs]: https://img.shields.io/github/issues-pr/LCVcode/jockey?style=for-the-badge&label=PRs
+[shield-stars]: https://img.shields.io/github/stars/LCVcode/jockey?style=for-the-badge
+[shield-forks]: https://img.shields.io/github/forks/LCVcode/jockey?style=for-the-badge
+[shield-contributors]: https://img.shields.io/github/contributors/LCVcode/jockey?style=for-the-badge
 
 [url-license]: LICENSE
-[url-contributors]: https://github.com/LCVcode/jockey/graphs/contributors
+[url-style]: https://github.com/psf/black
 [url-tests]: https://github.com/LCVcode/jockey/actions/workflows/ci.yml
+[url-issues]: https://github.com/LCVcode/jockey/issues
+[url-prs]: https://github.com/LCVcode/jockey/pulls
+[url-stars]: https://github.com/LCVcode/jockey/stargazers
+[url-forks]: https://github.com/LCVcode/jockey/forks
+[url-contributors]: https://github.com/LCVcode/jockey/graphs/contributors
 
 </div>
 
